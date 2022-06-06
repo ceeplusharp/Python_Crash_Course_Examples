@@ -32,7 +32,7 @@ class Users:
         print(f"Current login attempts: {self.login_attempts}")
 
 
-user1 = Users('Kaycee', 'Candelaria', 'Pasig City', 27)
+user1 = Users('Juan', 'Dela Cruz', 'Metro Manila', 31)
 user1.describe_user()
 user1.greet_user()
 user1.increment_login_attempts()
