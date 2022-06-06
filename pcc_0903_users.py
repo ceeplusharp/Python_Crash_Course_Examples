@@ -21,14 +21,14 @@ class Users:
         print(f"Welcome, {self.first_name} {self.last_name}!")
 
 
-user1 = Users('Kaycee', 'Candelaria', 'Pasig City', 27)
+user1 = Users('Juan', 'Dela Cruz', 'Metro Manila', 31)
 user1.describe_user()
 user1.greet_user()
 
-user2 = Users('Jessy', 'Diaz', 'Antipolo City', 25)
+user2 = Users('Juana', 'Dela Cruz', 'Antipolo City', 26)
 user2.describe_user()
 user2.greet_user()
 
-user3 = Users('Arvin', 'Bendo', 'Cainta Rizal', 26)
+user3 = Users('Maria', 'Dela Cruz', 'Marikina City', 28)
 user3.describe_user()
 user3.greet_user()
