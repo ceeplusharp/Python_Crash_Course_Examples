@@ -43,7 +43,7 @@ class Admin(Users):
         self.privileges = []
 
     def show_privileges(self, privilege):
-        """Store and print ice cream flavors."""
+        """Store and print admin user privileges."""
         self.privileges.append(privilege)
         print(f"These are the Admin User's Privileges: {self.privileges}")
 
