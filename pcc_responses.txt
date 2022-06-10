@@ -1,0 +1,6 @@
+Name: Dianne, Favorite Programming Language: PYTHON,
+	Reason: easy to read and understand
+Name: Todd, Favorite Programming Language: RUBY,
+	Reason: can be used for multiple styles of programming
+Name: Princess Carolyn, Favorite Programming Language: CSS,
+	Reason: allows users to style web pages through layout, color, and font
