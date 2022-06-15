@@ -8,9 +8,14 @@ class NamesTestCase(unittest.TestCase):
     """Tests for 'pcc_1101_city_country_function'."""
 
     def test_city_country(self):
-        """Does input like Manila Philippines work?"""
+        """Does input like Manila, Philippines work?"""
         formatted_city = get_city_country('manila', 'philippines')
         self.assertEqual(formatted_city, 'Manila, Philippines')
+
+    def test_city_country_population(self):
+        """Does input like Manila, Philippines work?"""
+        formatted_city = get_city_country('manila', 'philippines', 14000000)
+        self.assertEqual(formatted_city, 'Manila, Philippines (Population: 14000000)')
 
 
 if __name__ == '__main__':
