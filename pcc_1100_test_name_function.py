@@ -3,6 +3,7 @@
 import unittest
 from pcc_1100_name_function import get_formatted_name
 
+
 class NamesTestCase(unittest.TestCase):
     """Tests for 'pcc_1100_name_function'."""
 
@@ -14,4 +15,3 @@ class NamesTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    
