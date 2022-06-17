@@ -1,7 +1,5 @@
 # Chapter 11: Testing the Class
 
-# Chapter 11: Testing the Class
-
 import unittest
 from pcc_1100_survey import AnonymousSurvey
 
