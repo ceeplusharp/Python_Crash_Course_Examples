@@ -17,12 +17,14 @@ class Employee:
         if self.salary_raise == 0:
             self.final_salary = self.annual_salary + 5000
             print(f"Salary after Annual Raise: ${self.final_salary}")
+            return self.final_salary
             # print(f"\nEmployee: {self.first_name} {self.last_name}"
             #       f"\nAnnual Salary: ${self.annual_salary}"
             #       f"\nSalary after Annual Raise: ${self.annual_salary + 5_000}")
         else:
             self.final_salary = self.annual_salary + self.salary_raise
             print(f"Salary after Desired Raise: ${self.final_salary}")
+            return self.final_salary
             # print(f"\nEmployee: {self.first_name} {self.last_name}"
             #       f"\nAnnual Salary: ${self.annual_salary}"
             #       f"\nSalary after Desired Raise: ${self.annual_salary + self.salary_raise}")
