@@ -33,5 +33,5 @@ class Employee:
 employee1 = Employee('Bojack', 'Horseman', 60_000)
 employee1.give_raise()
 
-employee2 = Employee('Dianne', 'Nguyen', 50_000, 10_000)
+employee2 = Employee('Diane', 'Nguyen', 50_000, 10_000)
 employee2.give_raise()

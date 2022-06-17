@@ -11,7 +11,7 @@ class TestEmployeeRaise(unittest.TestCase):
     def setUp(self):
         """Creates the employee profile."""
         self.employee1 = Employee('Bojack', 'Horseman', 60_000)
-        self.employee2 = Employee('Dianne', 'Nguyen', 50_000, 10_000)
+        self.employee2 = Employee('Diane', 'Nguyen', 50_000, 10_000)
 
     def test_give_default_raise(self):
         """Test the given default raise."""
