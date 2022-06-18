@@ -7,10 +7,16 @@ y_values1 = [x1**3 for x1 in x_values1]
 x_values2 = range(1, 5001)
 y_values2 = [x2**3 for x2 in x_values2]
 
-plt.subplot(2, 1, 1)
-plt.plot(x_values1, y_values1, color='red')
+fig = plt.figure()
+fig.suptitle("Plot of Cubic Numbers", fontsize=16)
 
-plt.subplot(2, 1, 2)
-plt.plot(x_values2, y_values2, color='blue')
+ax = plt.subplot(211)
+ax.set_title("First 5 Cubic Numbers")
+ax.plot(x_values1, y_values1)
 
+ax = plt.subplot(212)
+ax.set_title("First 5,000 Cubic Numbers")
+ax.plot(x_values2, y_values2)
+
+plt.subplots_adjust(hspace=0.5)
 plt.show()
